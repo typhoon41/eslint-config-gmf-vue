@@ -1,0 +1,55 @@
+{
+  "name": "@typhoon41/eslint-vue-config",
+  "version": "1.0.0",
+  "author": "Nikola Dragićević",
+  "description": "Nikola Dragićević's shareable config for vue/ts projects using eslint.",
+  "license": "Apache-2.0",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "eslint": "7.32.0",
+	"@typescript-eslint/parser": "5.3.0",
+    "@typescript-eslint/eslint-plugin": "5.3.0",
+    "eslint-plugin-vue": "8.0.3",
+    "vue-eslint-parser": "8.0.1",
+    "eslint-plugin-no-secrets": "0.8.9",
+    "eslint-plugin-no-loops": "0.3.0",
+    "eslint-plugin-no-unsanitized": "4.0.0",
+    "eslint-plugin-promise": "5.1.1",
+    "eslint-plugin-unused-imports": "1.1.5",
+    "eslint-plugin-xss": "0.1.11"
+  },
+  "peerDependencies": {
+    "eslint": "7.32.0",
+	"@typescript-eslint/parser": "5.3.0",
+    "@typescript-eslint/eslint-plugin": "5.3.0",
+    "eslint-plugin-vue": "8.0.3",
+    "vue-eslint-parser": "8.0.1",
+    "eslint-plugin-no-secrets": "0.8.9",
+    "eslint-plugin-no-loops": "0.3.0",
+    "eslint-plugin-no-unsanitized": "4.0.0",
+    "eslint-plugin-promise": "5.1.1",
+    "eslint-plugin-unused-imports": "1.1.5",
+    "eslint-plugin-xss": "0.1.11"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typhoon41/eslint-vue-config.git"
+  },
+  "keywords": [
+    "eslint",
+	"vue",
+    "config",
+    "ts",
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/typhoon41/eslint-vue-config/issues"
+  },
+  "homepage": "https://github.com/typhoon41/eslint-vue-config#readme"
+}
