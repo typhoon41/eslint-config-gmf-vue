@@ -1,6 +1,6 @@
 {
   "name": "@typhoon41/eslint-config-vue",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "Nikola Dragićević",
   "description": "Nikola Dragićević's shareable config for vue/ts projects using eslint.",
   "license": "Apache-2.0",
@@ -9,13 +9,13 @@
   ],
   "dependencies": {
     "eslint": "8.28.0",
-    "@typhoon41/eslint-config": "1.0.0",
+    "@typhoon41/eslint-config": "1.0.1",
     "eslint-plugin-vue": "9.7.0",
     "vue-eslint-parser": "9.1.0"
   },
   "peerDependencies": {
     "eslint": "8.28.0",
-    "@typhoon41/eslint-config": "1.0.0",
+    "@typhoon41/eslint-config": "1.0.1",
     "eslint-plugin-vue": "9.7.0",
     "vue-eslint-parser": "9.1.0"
   },
@@ -26,7 +26,7 @@
   },
   "keywords": [
     "eslint",
-	  "vue",
+	"vue",
     "config",
     "ts",
     "js"
