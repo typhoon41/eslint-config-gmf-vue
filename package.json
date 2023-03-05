@@ -9,29 +9,15 @@
   ],
   "dependencies": {
     "eslint": "8.28.0",
-	  "@typescript-eslint/parser": "5.43.0",
-    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typhoon41/eslint-config": "1.0.0",
     "eslint-plugin-vue": "9.7.0",
-    "vue-eslint-parser": "9.1.0",
-    "eslint-plugin-no-secrets": "0.8.9",
-    "eslint-plugin-no-loops": "0.3.0",
-    "eslint-plugin-no-unsanitized": "4.0.1",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-unused-imports": "2.0.0",
-    "eslint-plugin-xss": "0.1.12"
+    "vue-eslint-parser": "9.1.0"
   },
   "peerDependencies": {
     "eslint": "8.28.0",
-	  "@typescript-eslint/parser": "5.43.0",
-    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typhoon41/eslint-config": "1.0.0",
     "eslint-plugin-vue": "9.7.0",
-    "vue-eslint-parser": "9.1.0",
-    "eslint-plugin-no-secrets": "0.8.9",
-    "eslint-plugin-no-loops": "0.3.0",
-    "eslint-plugin-no-unsanitized": "4.0.1",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-unused-imports": "2.0.0",
-    "eslint-plugin-xss": "0.1.12"
+    "vue-eslint-parser": "9.1.0"
   },
   "main": "index.js",
   "repository": {
