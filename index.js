@@ -134,6 +134,7 @@ module.exports = {
         "@typescript-eslint/no-redeclare": [
           "error"
         ],
+        "@typescript-eslint/no-redundant-type-constituents": "error",
         "@typescript-eslint/no-restricted-imports": "off",
         "@typescript-eslint/no-shadow": [
           "error"
@@ -408,7 +409,6 @@ module.exports = {
         "no-proto": "error",
         "no-prototype-builtins": "error",
         "no-redeclare": "off",
-        "no-redundant-type-constituents": "error",
         "no-regex-spaces": "error",
         "no-restricted-exports": "off",
         "no-restricted-globals": "off",
@@ -508,7 +508,10 @@ module.exports = {
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
-        "promise/always-return": "error",
+        "promise/always-return": ["error", {
+          "ignoreLastCallback": true
+          }
+        ],
         "promise/avoid-new": "warn",
         "promise/catch-or-return": [
           "error",
@@ -746,6 +749,7 @@ module.exports = {
         "@typescript-eslint/no-redeclare": [
           "error"
         ],
+        "@typescript-eslint/no-redundant-type-constituents": "error",
         "@typescript-eslint/no-restricted-imports": "off",
         "@typescript-eslint/no-shadow": [
           "error"
@@ -860,7 +864,7 @@ module.exports = {
           "error",
           {
             "exceptionPatterns": [
-              "_",
+              "_", "t",
               "\\$[a-z]+"
             ],
             "max": 24,
@@ -1019,7 +1023,6 @@ module.exports = {
         "no-proto": "error",
         "no-prototype-builtins": "error",
         "no-redeclare": "off",
-        "no-redundant-type-constituents": "error",
         "no-regex-spaces": "error",
         "no-restricted-exports": "off",
         "no-restricted-globals": "off",
@@ -1119,7 +1122,10 @@ module.exports = {
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
-        "promise/always-return": "error",
+        "promise/always-return": ["error", {
+          "ignoreLastCallback": true
+          }
+        ],
         "promise/avoid-new": "warn",
         "promise/catch-or-return": [
           "error",
@@ -1216,7 +1222,7 @@ module.exports = {
             "registeredComponentsOnly": false
           }
         ],
-        "vue/component-options-name-casing rule": "error",
+        "vue/component-options-name-casing rule": "off",
         "vue/component-tags-order": [
           "error",
           {
@@ -1285,7 +1291,7 @@ module.exports = {
             "ignoreComments": true
           }
         ],
-        "vue/multi-word-component-names": "error",
+        "vue/multi-word-component-names": "off",
         "vue/multiline-html-element-content-newline": "off",
         "vue/multiline-ternary": "off",
         "vue/mustache-interpolation-spacing": [
@@ -1490,7 +1496,7 @@ module.exports = {
         "vue/use-v-on-exact": [
           "error"
         ],
-        "vue/v-bind-style": "error0",
+        "vue/v-bind-style": "error",
         "vue/v-for-delimiter-style": "error",
         "vue/v-on-event-hyphenation": "error",
         "vue/v-on-function-call": [
@@ -1503,7 +1509,7 @@ module.exports = {
         "vue/valid-attribute-name": "error",
         "vue/valid-define-emits": "error",
         "vue/valid-define-props": "error",
-        "vue/valid-model-definition ": "error",
+        "vue/valid-model-definition": "error",
         "vue/valid-next-tick": "error",
         "vue/valid-template-root": "error",
         "vue/valid-v-bind": "error",
