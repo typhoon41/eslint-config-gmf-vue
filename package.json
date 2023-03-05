@@ -1,6 +1,6 @@
 {
   "name": "@typhoon41/eslint-config-vue",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "author": "Nikola Dragićević",
   "description": "Nikola Dragićević's shareable config for vue/ts projects using eslint.",
   "license": "Apache-2.0",

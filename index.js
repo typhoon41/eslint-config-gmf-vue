@@ -18,7 +18,10 @@ module.exports = {
           "jsx": true
         },
         "ecmaVersion": 2015,
-        "parser": "@typescript-eslint/parser",
+        "parser": {
+          "ts": "@typescript-eslint/parser",
+          "<template>": "espree"
+        },
         "project": [
           "tsconfig.json"
         ],
