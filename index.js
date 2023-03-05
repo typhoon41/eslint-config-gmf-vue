@@ -777,7 +777,7 @@ module.exports = {
         "vue/no-textarea-mustache": "error",
         "vue/no-this-in-before-route-enter": "error",
         "vue/no-undef-components": "off",
-        "vue/no-undef-properties": "error",
+        "vue/no-undef-properties": "off",
         "vue/no-unsupported-features": "error",
         "vue/no-unused-components": "error",
         "vue/no-unused-properties": [
