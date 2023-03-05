@@ -1,6 +1,6 @@
 {
-  "name": "@typhoon41/eslint-vue-config",
-  "version": "1.0.6",
+  "name": "@typhoon41/eslint-config-vue",
+  "version": "1.0.7",
   "author": "Nikola Dragićević",
   "description": "Nikola Dragićević's shareable config for vue/ts projects using eslint.",
   "license": "Apache-2.0",
@@ -36,7 +36,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typhoon41/eslint-vue-config.git"
+    "url": "git+https://github.com/typhoon41/eslint-config-vue.git"
   },
   "keywords": [
     "eslint",
@@ -46,7 +46,7 @@
     "js"
   ],
   "bugs": {
-    "url": "https://github.com/typhoon41/eslint-vue-config/issues"
+    "url": "https://github.com/typhoon41/eslint-config-vue/issues"
   },
-  "homepage": "https://github.com/typhoon41/eslint-vue-config#readme"
+  "homepage": "https://github.com/typhoon41/eslint-config-vue#readme"
 }
